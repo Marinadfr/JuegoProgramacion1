@@ -57,8 +57,7 @@ Algoritmo juego
 	Escribir "¡ Empieza el juego !";
 	
 	//Procedimiento
-Repetir
-	 
+	
 	Mientras terminar == Falso  Hacer
 		Segun palabraAleatoria Hacer
 			1:	
@@ -171,7 +170,7 @@ Repetir
 		Limpiar Pantalla;
 	Fin Mientras
 
-	
+	//salida
 	Si vida == 0 Entonces
 		Escribir "-----------------";
 		Escribir ":( PERDISTE :( ";
@@ -184,11 +183,4 @@ Repetir
 		Escribir "---------------";
 	 FinSi
 	
-	
-	Escribir "Para intentar de nuevo o salir presione: ";
-	Escribir "SI= 1 o NO=2";
-	Leer s;
-	
-Hasta Que s==2 
-
 FinAlgoritmo
